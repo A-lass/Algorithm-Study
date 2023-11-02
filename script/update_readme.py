@@ -8,7 +8,7 @@ GH_TOKEN = os.environ.get('GH_TOKEN')
 users = ["ddingmin", "kjhonggg95", "ajsthfldu", "dydwo0740"]
 dirs = ["baekjoon"]
 
-url = f"https://api.github.com/repos/{os.environ.get('GITHUB_REPOSITORY')}/git/trees/main/"
+url = f"https://api.github.com/repos/{os.environ.get('GITHUB_REPOSITORY')}/contents/"
 solution_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/blob/main/"
 boj_url = "https://www.acmicpc.net/problem/"
 find_level_url = "https://solved.ac/api/v3/problem/show?problemId="
