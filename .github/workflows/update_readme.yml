@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: Set up Environment Variables
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        
       - name: Checkout Repository
         uses: actions/checkout@v3
 
@@ -26,4 +22,6 @@ jobs:
         run: pip install requests
 
       - name: Run Python Script to Update README
+        env:
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python script/update_readme.py
