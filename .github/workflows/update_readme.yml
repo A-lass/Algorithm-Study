@@ -22,4 +22,4 @@ jobs:
         run: pip install requests
 
       - name: Run Python Script to Update README
-        run: python /script/update_readme.py
+        run: python script/update_readme.py
