@@ -5,23 +5,57 @@ solve problem everyday
 
 <table>
  <tr>
-    <td align="center"><a href="https://github.com/kjhonggg95"><img src="https://avatars.githubusercontent.com/kjhonggg95" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/dydwo0740"><img src="https://avatars.githubusercontent.com/dydwo0740" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/ajsthfldu"><img src="https://avatars.githubusercontent.com/ajsthfldu" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/ddingmin"><img src="https://avatars.githubusercontent.com/ddingmin" width="130px;" alt=""></a></td>
+    <td align="center">
+     <a href="https://github.com/kjhonggg95"><img src="https://avatars.githubusercontent.com/kjhonggg95" width="130px;" alt=""></a>
+     <br />
+     <a href="https://github.com/kjhonggg95"><b>kjhonggg95</b></a>
+    </td>
+    <td align="center">
+     <a href="https://github.com/dydwo0740"><img src="https://avatars.githubusercontent.com/dydwo0740" width="130px;" alt=""></a>
+     <br />
+     <a href="https://github.com/dydwo0740"><b>dydwo0740</b></a>
+    </td>
+    <td align="center">
+     <a href="https://github.com/ajsthfldu"><img src="https://avatars.githubusercontent.com/ajsthfldu" width="130px;" alt=""></a>
+     <br />
+     <a href="https://github.com/ajsthfldu"><b>ajsthfldu</b></a>
+    </td>
+    <td align="center">
+     <a href="https://github.com/ddingmin"><img src="https://avatars.githubusercontent.com/ddingmin" width="130px;" alt=""></a>
+     <br />
+     <a href="https://github.com/ddingmin"><b>ddingmin</b></a>
+    </td>
   </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/kjhonggg95"><b>kjhonggg95</b></a></td>
-    <td align="center"><a href="https://github.com/dydwo0740"><b>dydwo0740</b></a></td>
-    <td align="center"><a href="https://github.com/ajsthfldu"><b>ajsthfldu</b></a></td>
-    <td align="center"><a href="https://github.com/ddingmin"><b>ddingmin</b></a></td>
-  </tr>
-  <tr> 
-    <td align="center"><img src="https://img.shields.io/badge/cplusplus-00599C?&style=for-the-badge&logo=cplusplus&logoColor=white"></td>
-    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"></td>
-    <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-  </tr> 
+  <tr height="50px">
+        <td align="center">
+            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kjhonggg" />
+            <br />
+            <a href="https://www.acmicpc.net/user/kjhonggg">Baekjoon</a>
+            <br />
+            <a href="https://solved.ac/profile/kjhonggg">solved.ac</a>
+        </td>
+        <td align="center">
+            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=dydwo0740" />
+            <br />
+            <a href="https://www.acmicpc.net/user/dydwo0740">Baekjoon</a>
+            <br />
+            <a href="https://solved.ac/profile/dydwo0740">solved.ac</a>
+        </td>
+        <td align="center">
+            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=inbloom" />
+            <br />
+            <a href="https://www.acmicpc.net/user/inbloom">Baekjoon</a>
+            <br />
+            <a href="https://solved.ac/profile/inbloom">solved.ac</a>
+        </td>
+        <td align="center">
+            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ddingmin" />
+            <br />
+            <a href="https://www.acmicpc.net/user/ddingmin">Baekjoon</a>
+            <br />
+            <a href="https://solved.ac/profile/ddingmin">solved.ac</a>
+        </td>
+    </tr>
 </table>
 
 <br/>
