@@ -21,8 +21,14 @@ problems = {}
 for user in users:
     for dir in dirs:
         target_url = url + user + "/" + dir
-        response = requests.get(url + user + "/" + dir).json()
-        file_names = [item["name"] for item in response]
+
+        print(f"target_url: {target_url}")
+        response = requests.get(target_url)
+
+        print(f"Response Statuscode: {response.status_code}")
+        print(f"Response Content: {response.content}")
+
+        file_names = [item["name"] for item in response.json()]
 
         for file_name in file_names:
             solved_number = file_name.split(".")[0]
