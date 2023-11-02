@@ -26,7 +26,6 @@ for user in users:
         response = requests.get(target_url)
 
         print(f"Response Statuscode: {response.status_code}")
-        print(f"Response Content: {response.content}")
 
         file_names = [item["name"] for item in response.json()]
 
