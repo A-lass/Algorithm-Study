@@ -1,0 +1,27 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # 한국 시간 기준, 매일 아침 6시에 실행
+  workflow_dispatch:  # 수동으로 Workflow를 실행
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10.12  # 원하는 Python 버전 설정
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run Python Script to Update README
+        env:
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python script/update_readme.py
