@@ -5,7 +5,7 @@ import os
 GH_TOKEN = os.environ.get('GH_TOKEN')
 
 # 유저, 디렉토리 설정
-users = ["ddingmin", "kjhonggg95", "ajsthfldu", "dydwo0740"]
+users = ["ddingmin", "kjhonggg95", "qsunki", "dydwo0740"]
 dirs = ["baekjoon"]
 
 url = f"https://api.github.com/repos/{os.environ.get('GITHUB_REPOSITORY')}/contents/"
@@ -65,9 +65,9 @@ solve problem everyday
      <a href="https://github.com/dydwo0740"><b>dydwo0740</b></a>
     </td>
     <td align="center">
-     <a href="https://github.com/ajsthfldu"><img src="https://avatars.githubusercontent.com/ajsthfldu" width="130px;" alt=""></a>
+     <a href="https://github.com/qsunki"><img src="https://avatars.githubusercontent.com/qsunki" width="130px;" alt=""></a>
      <br />
-     <a href="https://github.com/ajsthfldu"><b>ajsthfldu</b></a>
+     <a href="https://github.com/qsunki"><b>qsunki</b></a>
     </td>
     <td align="center">
      <a href="https://github.com/ddingmin"><img src="https://avatars.githubusercontent.com/ddingmin" width="130px;" alt=""></a>
