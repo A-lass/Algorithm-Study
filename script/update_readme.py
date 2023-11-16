@@ -67,7 +67,7 @@ solve problem everyday
     <td align="center">
      <a href="https://github.com/ajsthfldu"><img src="https://avatars.githubusercontent.com/ajsthfldu" width="130px;" alt=""></a>
      <br />
-     <a href="https://github.com/ajsthfldu"><b>ajsthfldu</b></a>
+     <a href="https://github.com/qsunki"><b>qsunki</b></a>
     </td>
     <td align="center">
      <a href="https://github.com/ddingmin"><img src="https://avatars.githubusercontent.com/ddingmin" width="130px;" alt=""></a>
