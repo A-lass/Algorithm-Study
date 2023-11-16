@@ -16,7 +16,7 @@ solve problem everyday
      <a href="https://github.com/dydwo0740"><b>dydwo0740</b></a>
     </td>
     <td align="center">
-     <a href="https://github.com/ajsthfldu"><img src="https://avatars.githubusercontent.com/ajsthfldu" width="130px;" alt=""></a>
+     <a href="https://github.com/qsunki"><img src="https://avatars.githubusercontent.com/qsunki" width="130px;" alt=""></a>
      <br />
      <a href="https://github.com/qsunki"><b>qsunki</b></a>
     </td>
