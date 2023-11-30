@@ -5,7 +5,7 @@ import os
 GH_TOKEN = os.environ.get('GH_TOKEN')
 
 # 유저, 디렉토리 설정
-users = ["ddingmin", "kjhonggg95", "qsunki", "dydwo0740"]
+users = ["ddingmin", "kjhonggg95", "qsunki", "dydwo0740", "pon60601"]
 dirs = ["baekjoon"]
 
 url = f"https://api.github.com/repos/{os.environ.get('GITHUB_REPOSITORY')}/contents/"
@@ -74,6 +74,11 @@ solve problem everyday
      <br />
      <a href="https://github.com/ddingmin"><b>ddingmin</b></a>
     </td>
+    <td align="center">
+     <a href="https://github.com/kwYoohae"><img src="https://avatars.githubusercontent.com/kwYoohae" width="130px;" alt=""></a>
+     <br />
+     <a href="https://github.com/kwYoohae"><b>kwYoohae</b></a>
+    </td>
   </tr>
   <tr height="50px">
         <td align="center">
@@ -103,6 +108,13 @@ solve problem everyday
             <a href="https://www.acmicpc.net/user/ddingmin">Baekjoon</a>
             <br />
             <a href="https://solved.ac/profile/ddingmin">solved.ac</a>
+        </td>
+        <td align="center">
+            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=pon60601" />
+            <br />
+            <a href="https://www.acmicpc.net/user/pon60601">Baekjoon</a>
+            <br />
+            <a href="https://solved.ac/profile/pon60601">solved.ac</a>
         </td>
     </tr>
 </table>
