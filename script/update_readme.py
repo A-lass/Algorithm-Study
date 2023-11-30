@@ -5,7 +5,7 @@ import os
 GH_TOKEN = os.environ.get('GH_TOKEN')
 
 # 유저, 디렉토리 설정
-users = ["ddingmin", "kjhonggg95", "qsunki", "dydwo0740", "pon60601"]
+users = ["ddingmin", "kjhonggg95", "qsunki", "dydwo0740", "kwyoohae"]
 dirs = ["baekjoon"]
 
 url = f"https://api.github.com/repos/{os.environ.get('GITHUB_REPOSITORY')}/contents/"
