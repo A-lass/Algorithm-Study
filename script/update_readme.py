@@ -110,11 +110,11 @@ solve problem everyday
             <a href="https://solved.ac/profile/ddingmin">solved.ac</a>
         </td>
         <td align="center">
-            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=pon60601" />
+            <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=pon06061" />
             <br />
-            <a href="https://www.acmicpc.net/user/pon60601">Baekjoon</a>
+            <a href="https://www.acmicpc.net/user/pon06061">Baekjoon</a>
             <br />
-            <a href="https://solved.ac/profile/pon60601">solved.ac</a>
+            <a href="https://solved.ac/profile/pon06061">solved.ac</a>
         </td>
     </tr>
 </table>
