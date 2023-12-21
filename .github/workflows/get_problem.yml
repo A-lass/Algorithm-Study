@@ -21,15 +21,12 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
-          path: |
-            ~/.npm
+          path: ~/.npm
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
+          restore-keys: ${{ runner.os }}-npm-
 
       - name: Install Dependencies
-        run: |
-          npm install
+        run: npm install
         working-directory: .github/get_problem
 
       - name: Get problem and Create GitHub Issue
