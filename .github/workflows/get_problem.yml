@@ -1,0 +1,30 @@
+name: Get problem and GitHub Issue
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # 한국 시간 기준, 매일 아침 6시에 실행
+  workflow_dispatch:  # 수동으로 Workflow를 실행
+
+jobs:
+  get_problem_and_create_issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm install
+        working-directory: .github/get_problem
+
+      - name: Get problem and Create GitHub Issue
+        run: npm start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: .github/get_problem
