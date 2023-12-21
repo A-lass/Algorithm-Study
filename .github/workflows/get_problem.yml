@@ -27,4 +27,5 @@ jobs:
         run: npm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCORD_ALGO: ${{ secrets.DISCORD_ALGO }}
         working-directory: .github/get_problem
