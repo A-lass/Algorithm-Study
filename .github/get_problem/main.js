@@ -8,7 +8,7 @@ async function getProblemUrl() {
     const html = response.data;
     const $ = cheerio.load(html);
 
-    const elementContent = $('#__next > div > div:nth-child(4) > div.css-qijqp5 > table > tbody > tr:nth-child(2) > td:nth-child(1) > div > div > div > span > a > span').text();
+    const elementContent = $('#__next > div > div:nth-child(4) > div.css-qijqp5 > table > tbody > tr:nth-child(2) > td:nth-child(1) > div > div > div > span > span > a').text();
 
     return `https://www.acmicpc.net/problem/${elementContent}`;
   } catch (error) {
