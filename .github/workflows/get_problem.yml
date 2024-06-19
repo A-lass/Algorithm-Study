@@ -6,30 +6,26 @@ on:
   workflow_dispatch:  # 수동으로 Workflow를 실행
 
 jobs:
-  get_problem_and_create_issue:
+  create-problem-issue:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/get_problem
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-npm-
-
-      - name: Install Dependencies
-        run: npm install
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
         working-directory: .github/get_problem
+        run: npm ci
 
-      - name: Get problem and Create GitHub Issue
+      - name: Run Script
         run: npm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
